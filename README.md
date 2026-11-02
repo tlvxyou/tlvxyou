@@ -5,6 +5,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-tlvxyou-181717?style=for-the-badge&logo=github)](https://github.com/tlvxyou)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:ezzelden.hisham.mohamed@gmail.com)
 [![HTB](https://img.shields.io/badge/HackTheBox-Rank_1461%2F6744-9FEF00?style=for-the-badge&logo=hackthebox)](https://github.com/tlvxyou)
+[![CTFtime](https://img.shields.io/badge/CTFtime-MinTea_%23435136-FF6B35?style=for-the-badge&logo=target&logoColor=white)](https://ctftime.org/team/435136)
 
 *Focused on White-Box Source Code Review (Python/Flask, PHP/Laravel, Java Bytecode) & Black-Box Web/API Exploitation.*
 
@@ -39,7 +40,22 @@ Combining static source code analysis with dynamic black-box testing to surface 
 
 ## CTF & Recognition
 
-- **HTB Cyber Apocalypse CTF 2026** — Ranked **1461 / 6,744 Teams** (Top 22% Globally, 6,150 pts) | Founder & Team Lead, Koshary CTF
+### [MinTea — CTFtime Team #435136](https://ctftime.org/team/435136) *(handle: APHP)*
+
+Public, independently verifiable placements from 2026 competitions:
+
+| Competition | Place | Score | Verify |
+|---|---|---|---|
+| EYCC CTF 2026 Qualifiers | **24th** | 761 pts | [CTFtime](https://ctftime.org/team/435136) |
+| Thryve CTF 2026 | **186th** | 920 pts | [CTFtime](https://ctftime.org/team/435136) |
+| Junior.Crypt.2026 CTF | **209th** | 1,051 pts | [CTFtime](https://ctftime.org/team/435136) |
+
+### Solo CTF
+
+- **HTB Cyber Apocalypse CTF 2026** (`koshary`) — Ranked **1461 / 6,744 Teams** (Top 22% Globally) — **competed solo**, capturing all 7 flags / 6,150 pts independently
+
+### Training
+
 - 🎓 **TechTrek Web Application Security Track** — 2-month professional training program
 
 ---
