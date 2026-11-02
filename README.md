@@ -37,8 +37,8 @@ Specializing in **hybrid security assessment methodology** — combining static 
 
 ## 🏆 CTF & Recognition
 
-- 🥇 **HTB Cyber Apocalypse 2026** — Rank **1461 / 6,744** teams | *Team Koshary* (Team Lead)
-- 🎓 **TechTrek Web Application Security Track** — 2-month professional training
+-  **HTB Cyber Apocalypse 2026** — Rank **1461 / 6,744** teams | *Team Koshary* (Team Lead)
+-  **TechTrek Web Application Security Track** — 2-month professional training
 
 ---
 
