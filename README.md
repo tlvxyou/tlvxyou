@@ -5,8 +5,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-tlvxyou-181717?style=for-the-badge&logo=github)](https://github.com/tlvxyou)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:ezzelden.hisham.mohamed@gmail.com)
 [![HTB](https://img.shields.io/badge/HackTheBox-Rank_1461%2F6744-9FEF00?style=for-the-badge&logo=hackthebox)](https://github.com/tlvxyou)
-[![CTFtime](https://img.shields.io/badge/CTFtime-MinTea_%23435136-FF6B35?style=for-the-badge&logo=target&logoColor=white)](https://ctftime.org/team/435136)
 
+*Junior Web Application Penetration Tester & Level 3 B.Sc. in Artificial Intelligence / Information Technology Student.*
 *Focused on White-Box Source Code Review (Python/Flask, PHP/Laravel, Java Bytecode) & Black-Box Web/API Exploitation.*
 
 </div>
@@ -40,22 +40,8 @@ Combining static source code analysis with dynamic black-box testing to surface 
 
 ## CTF & Recognition
 
-### [MinTea — CTFtime Team #435136](https://ctftime.org/team/435136) *(handle: APHP)*
-
-Public, independently verifiable placements from 2026 competitions:
-
-| Competition | Place | Score | Verify |
-|---|---|---|---|
-| EYCC CTF 2026 Qualifiers | **24th** | 761 pts | [CTFtime](https://ctftime.org/team/435136) |
-| Thryve CTF 2026 | **186th** | 920 pts | [CTFtime](https://ctftime.org/team/435136) |
-| Junior.Crypt.2026 CTF | **209th** | 1,051 pts | [CTFtime](https://ctftime.org/team/435136) |
-
-### Solo CTF
-
-- **HTB Cyber Apocalypse CTF 2026** (`koshary`) — Ranked **1461 / 6,744 Teams** (Top 22% Globally) — **competed solo**, capturing all 7 flags / 6,150 pts independently
-
-### Training
-
+- **HTB Cyber Apocalypse CTF 2026** (`koshary`) — Ranked **1,461 / 6,744 Teams (Top 22% Globally, 6,150 pts)**
+- **scriptCTF 2026** — Solved `wpm-game` (444 pts · Web/PyJail · 17-char ASCII math & Flask debug exception-leak)
 - 🎓 **TechTrek Web Application Security Track** — 2-month professional training program
 
 ---
@@ -105,11 +91,11 @@ Exploitation       → OWASP Top 10 · SSRF/SSTI/IDOR chains · PyJail escapes
 </details>
 
 <details>
-<summary><b>🟡 Java Agent Audit — JADX + strace + tcpdump (Air-Gapped VM)</b></summary>
+<summary><b>🟡 Java Agent Audit — JADX Bytecode Decompilation + strace (Air-Gapped VM)</b></summary>
 
-**Forensic Verdict:** Benign — License patcher with zero outbound network activity, no malware indicators.
+**Forensic Verdict:** Benign — Confirmed the absence of trojan droppers, hidden shell execution, and malicious C2 logic primarily through static JADX bytecode decompilation of all 4 core classes, supplemented by strace process/filesystem syscall auditing inside an air-gapped VM.
 
-Three-layer methodology: JADX static bytecode decompilation → strace syscall tracing (isolated VM, no WAN gateway) → tcpdump full packet capture. Dynamic execution targeted the standalone `KeygenForm` invocation; `-javaagent` instrumentation hooks were audited statically only.
+Dynamic execution targeted the standalone `KeygenForm` invocation (`java -jar loader.jar`); the `-javaagent` instrumentation pathway (`Loader.class premain()`, `Filter.class`) was audited statically via JADX only.
 
 📄 [Full Audit Report](https://github.com/tlvxyou/java-agent-supply-chain-audit/blob/main/Report.pdf)
 
